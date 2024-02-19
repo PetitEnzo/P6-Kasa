@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from "react";
-import Chevron from "/Users/enzo/Desktop/p6/src/assets/img/Vector.png";
+import React, { useState, useEffect } from "react";
+import Chevron from "../assets/img/Vector.png";
 
 const Collapse = ({ title, description }) => {
   const [toggle, setToggle] = useState(false);

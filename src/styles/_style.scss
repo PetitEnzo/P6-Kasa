@@ -1,7 +1,23 @@
+* {
+  box-sizing: border-box;
+}
 body {
-  margin-top: 50px;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.container {
+  margin: 0 50px 50px;
 }
 
 .errorContainer {

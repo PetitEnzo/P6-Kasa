@@ -1,14 +1,15 @@
 import React from "react";
-import Logo from "../components/Logo";
-import Navigation from "../components/Navigation";
-import Footer from "../components/Footer";
+import data from "../assets/data/data.json";
+import { useParams } from "react-router-dom";
 
 const Logement = () => {
+  const { id } = useParams();
+  const logement = data.find((item) => item.id === id);
   return (
     <div>
-      <Logo />
-      <Navigation />
-      <Footer />
+      <h1>{logement.description}</h1>
+      <h2>{logement.rating} </h2>
+      <img src={logement.host.picture} />
     </div>
   );
 };
