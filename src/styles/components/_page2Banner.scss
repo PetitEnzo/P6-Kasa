@@ -1,4 +1,4 @@
-.aboutBanner {
+.page2Banner {
   display: flex;
   align-items: center;
   background-repeat: no-repeat;
@@ -14,4 +14,7 @@
 
   background: rgba(0, 0, 0, 0.3) url(../../assets/img/Mountain2.png)
     center/cover;
+  h3 {
+    display: none;
+  }
 }

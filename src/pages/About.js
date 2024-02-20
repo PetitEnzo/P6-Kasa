@@ -1,11 +1,11 @@
 import React from "react";
-import AboutBanner from "../components/AboutBanner";
 import Collapse from "../components/Collapse";
+import Banner from "../components/Banner";
 
 function About() {
   return (
     <div>
-      <AboutBanner />
+      <Banner bannerClass="page2Banner" />
       <Collapse
         title="Fiabilité"
         description=" Les annonces postées sur Kasa garantissent une fiabilité totale. Les

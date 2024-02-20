@@ -1,0 +1,30 @@
+.HostCard {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  position: absolute;
+  top: 613px;
+  left: -95px;
+}
+
+.HostCard span {
+  color: #ff6060;
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  height: 66px;
+  justify-content: flex-end;
+  line-height: 142.6%;
+  text-align: right;
+  width: 63px;
+  margin-right: 7px;
+}
+
+.HostCard img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 4%;
+}

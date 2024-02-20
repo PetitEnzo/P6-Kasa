@@ -1,0 +1,27 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tags li {
+  width: 105px;
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0 7px; /* Espacement horizontal entre les éléments */
+  background: #ff6060;
+  align-items: center;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  height: 40px;
+  justify-content: center;
+  padding: 2px 10px 0;
+}
+
+.tags ul {
+  display: flex;
+  margin-left: -2.5%;
+}

@@ -5,7 +5,7 @@ import data from "../assets/data/data.json";
 const Home = () => {
   return (
     <div>
-      <Banner />
+      <Banner bannerClass="page1Banner" />
       <div className="card-container">
         {data.map((item) => (
           <Card key={item.id} item={item} />

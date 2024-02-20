@@ -1,7 +1,6 @@
 .collapse {
   width: 85%;
   margin: 30px auto 0;
-  border-radius: 3px;
 }
 
 .collapse-visible {
@@ -15,8 +14,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 7px 15px;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+  border-radius: 10px;
 }
 .collapse-visible span {
   padding: 15px 0;
@@ -52,6 +50,25 @@
   font-weight: 400;
   margin: 0;
   padding: 22px 15px;
-  color: #ff6060;
+  color: black;
   line-height: 1.3;
+}
+
+.LogementCollapse {
+  display: flex;
+  width: 100%;
+}
+
+.LogementCollapse .collapse {
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+.LogementCollapse .collapse-visible {
+}
+
+.animated li {
+  text-decoration: none;
+  list-style-type: none;
 }
