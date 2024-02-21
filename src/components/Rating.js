@@ -13,9 +13,9 @@ const Rating = () => {
     const stars = [];
     for (let i = 0; i < 5; i++) {
       if (i < score) {
-        stars.push(<img src={StarActive} />);
+        stars.push(<img src={StarActive} key={i} />);
       } else {
-        stars.push(<img src={StarInactive} alt="star" />);
+        stars.push(<img src={StarInactive} alt="star" key={i} />);
       }
     }
     return stars;
