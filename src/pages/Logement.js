@@ -31,11 +31,20 @@ const Logement = () => {
   return (
     <div>
       <Slider pictures={logement.pictures} />
-      <h1 className="TitleLogement">{logement.title}</h1>
-      <Host />
-      <Rating />
-      <p className="location">{logement.location}</p>
-      <Tags />
+      <div
+        className="logementContainer
+      "
+      >
+        <div className="logementDiv">
+          <h1 className="TitleLogement">{logement.title}</h1>
+          <p className="location">{logement.location}</p>
+          <Tags />
+        </div>
+        <div className="hostDiv">
+          <Host />
+          <Rating />
+        </div>
+      </div>
       <div className="LogementCollapse">
         <Collapse title="Description" description={logement.description} />
         <Collapse title="Équipements" description={equipmentsList} />

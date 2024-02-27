@@ -4,11 +4,10 @@
 }
 
 .tags li {
-  width: 105px;
   display: flex;
   list-style-type: none;
   text-decoration: none;
-  margin: 0 7px; /* Espacement horizontal entre les éléments */
+  margin-right: 10px;
   background: #ff6060;
   align-items: center;
   border-radius: 5px;
@@ -22,6 +21,6 @@
 }
 
 .tags ul {
+  padding: 0;
   display: flex;
-  margin-left: -2.5%;
 }

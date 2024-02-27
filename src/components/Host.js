@@ -9,7 +9,7 @@ const Host = () => {
   return (
     <div className="HostCard">
       <span>{logement.host.name}</span>
-      <img src={logement.host.picture} alt={logement.description} />
+      <img src={logement.host.picture} alt="host picture" />
     </div>
   );
 };

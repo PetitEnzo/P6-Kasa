@@ -1,0 +1,31 @@
+.logementContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logementDiv {
+}
+
+.hostDiv {
+}
+
+.TitleLogement {
+  color: #ff6060;
+  margin: 0;
+}
+
+.location {
+  margin: 0;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .logementContainer {
+    flex-direction: column;
+  }
+
+  .hostDiv {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}

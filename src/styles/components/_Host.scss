@@ -3,9 +3,6 @@
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  position: absolute;
-  top: 613px;
-  left: -95px;
 }
 
 .HostCard span {
@@ -26,5 +23,6 @@
 .HostCard img {
   border-radius: 50%;
   object-fit: cover;
-  width: 4%;
+  width: 64px;
+  height: 64px;
 }
